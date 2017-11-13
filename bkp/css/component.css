@@ -1,0 +1,197 @@
+/* BOX 1 */
+
+.box1 {
+	width: 300px;
+	height: 460px;
+	position: relative;
+	background: #fff;
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+	color: #2c3e50;
+	background-image:url(../images/gaster-bistro-off.png);
+	background-repeat: no-repeat;
+	box-shadow: inset 0 0 0 3px #000;
+	-webkit-transition: background 0.4s 0.5s;
+	transition: background 0.4s 0.5s;
+}
+
+.box1:hover {
+	background: #000;
+	background-image:url(../images/gaster-bistro-on.png);
+	background-repeat: no-repeat;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.box1 span {
+	display: block;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding: 5px;
+}
+
+.box1 h3,
+.box1 span {
+	-webkit-transition: color 0.4s 0.5s;
+	transition: color 0.4s 0.5s;
+}
+
+.box1:hover h3,
+.box1:hover span {
+	color: #fff;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.box1 svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.box1 svg line {
+	stroke-width: 3;
+	stroke: #ecf0f1;
+	fill: none;
+	-webkit-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+
+.box1:hover svg line {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.box1 svg line.top,
+.box1 svg line.bottom {
+	stroke-dasharray: 330 240; 
+}
+
+.box1 svg line.left,
+.box1 svg line.right {
+	stroke-dasharray: 490 400;
+}
+
+.box1:hover svg line.top {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+}
+
+.box1:hover svg line.bottom {
+	-webkit-transform: translateX(600px);
+	transform: translateX(600px);
+}
+
+.box1:hover svg line.left {
+	-webkit-transform: translateY(920px);
+	transform: translateY(920px);
+}
+
+.box1:hover svg line.right {
+	-webkit-transform: translateY(-920px);
+	transform: translateY(-920px);
+}
+
+
+
+/* BOX 2 */
+
+
+.box2 {
+	width: 300px;
+	height: 460px;
+	position: relative;
+	background-color: #fff;
+	background-image:url(../images/gaster-eventos-off.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+	color: #2c3e50;
+	box-shadow: inset 0 0 0 3px #000;
+	-webkit-transition: background 0.4s 0.5s;
+	transition: background 0.4s 0.5s;
+}
+
+.box2:hover {
+	background: #000;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	background-image:url(../images/gaster-eventos-on.png);
+	background-repeat: no-repeat;
+}
+
+.box2 span {
+	display: block;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding: 5px;
+}
+
+.box2 h3,
+.box2 span {
+	-webkit-transition: color 0.4s 0.5s;
+	transition: color 0.4s 0.5s;
+}
+
+.box2:hover h3,
+.box2:hover span {
+	color: #fff;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.box2 svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.box2 svg line {
+	stroke-width: 3;
+	stroke: #ecf0f1;
+	fill: none;
+	-webkit-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+
+.box2:hover svg line {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.box2 svg line.top,
+.box2 svg line.bottom {
+	stroke-dasharray: 330 240; 
+}
+
+.box2 svg line.left,
+.box2 svg line.right {
+	stroke-dasharray: 490 400;
+}
+
+.box2:hover svg line.top {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+}
+
+.box2:hover svg line.bottom {
+	-webkit-transform: translateX(600px);
+	transform: translateX(600px);
+}
+
+.box2:hover svg line.left {
+	-webkit-transform: translateY(920px);
+	transform: translateY(920px);
+}
+
+.box2:hover svg line.right {
+	-webkit-transform: translateY(-920px);
+	transform: translateY(-920px);
+}
+

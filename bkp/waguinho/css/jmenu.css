@@ -1,0 +1,4 @@
+.jMenu{display:table;margin:0;padding:0;list-style:none;}
+.jMenu li{display:table-cell;background-color:#fff;margin:0;list-style:none;}
+.jMenu li a{padding:10px 15px;display:block;background-color:transparent;color:#000;text-transform:uppercase;cursor:pointer;font-size:14px}
+.jMenu li:hover>a{background-color:#f9f9f9; color:#000;}
